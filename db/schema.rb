@@ -10,7 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110822010835) do
+ActiveRecord::Schema.define(:version => 20110822201923) do
+
+  create_table "sessions", :force => true do |t|
+    t.string   "user_id"
+    t.string   "user_agent"
+    t.string   "expiration_time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email"

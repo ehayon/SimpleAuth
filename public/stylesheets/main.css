@@ -74,9 +74,7 @@ body {
 }
 #content {
 	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
-	margin-top: 30px;
-	margin-left: 30px;
+	margin: 30px;
 	line-height: 30px;
-	margin-right:30px;
 	
 }
